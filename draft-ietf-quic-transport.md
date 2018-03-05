@@ -4042,8 +4042,8 @@ Issue and pull request numbers are listed with a leading octothorp.
   PONG frame. Changed ACK frame type from 0x0e to 0x0d. (#1091, #1086)
 
 - Endpoints now set the connection ID that their peer uses.  Connection IDs are
-  variable length.  Removed omit_connection_id and the corresponding short
-  header flag. (#TBD)
+  variable length.  Removed the omit_connection_id transport parameter and the
+  corresponding short header flag. (#1089, #1052, #1146, #1151)
 
 ## Since draft-ietf-quic-transport-08
 
